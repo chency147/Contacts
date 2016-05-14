@@ -1,0 +1,99 @@
+<resources>
+	<style name="titleButtonStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:background">
+			?android:attr/selectableItemBackgroundBorderless
+		</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+
+
+	<style name="searchBarButtonStyle">
+		<item name="android:layout_width">@dimen/title_tool_image_button_width
+		</item>
+		<item name="android:layout_height">@dimen/title_tool_image_button_height
+		</item>
+		<item name="android:layout_marginLeft">
+			@dimen/activity_horizontal_margin
+		</item>
+		<item name="android:background">
+			?android:attr/selectableItemBackgroundBorderless
+		</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="backButtonStyle">
+		<item name="android:layout_width">@dimen/title_tool_image_button_width
+		</item>
+		<item name="android:layout_height">@dimen/title_tool_image_button_height
+		</item>
+		<item name="android:layout_marginLeft">
+			@dimen/activity_horizontal_margin
+		</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:background">
+			?android:selectableItemBackgroundBorderless
+		</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:src">@drawable/ic_arrow_back_white_48dp</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="editButtonStyle">
+		<item name="android:layout_width">@dimen/search_bar_image_button_width
+		</item>
+		<item name="android:layout_height">@dimen/search_bar_image_button_height
+		</item>
+		<item name="android:layout_marginRight">
+			@dimen/activity_horizontal_margin
+		</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:background">
+			?android:selectableItemBackgroundBorderless
+		</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:src">@drawable/ic_edit_white_48dp</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="deleteButtonStyle">
+		<item name="android:layout_width">@dimen/search_bar_image_button_width
+		</item>
+		<item name="android:layout_height">@dimen/search_bar_image_button_height
+		</item>
+		<item name="android:layout_marginRight">
+			@dimen/activity_horizontal_margin
+		</item>
+		<item name="android:background">
+			?android:attr/selectableItemBackgroundBorderless
+		</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:src">@drawable/ic_delete_white_48dp</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="addButtonStyle">
+		<item name="android:layout_width">@dimen/addAndRemoveButtonWidth</item>
+		<item name="android:layout_height">@dimen/addAndRemoveButtonHeight
+		</item>
+		<item name="android:background">
+			?android:attr/selectableItemBackgroundBorderless
+		</item>
+		<item name="android:src">@drawable/ic_add_green_600_48dp</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="removeButtonStyle">
+		<item name="android:layout_width">@dimen/addAndRemoveButtonWidth</item>
+		<item name="android:layout_height">@dimen/addAndRemoveButtonHeight
+		</item>
+		<item name="android:background">
+			?android:attr/selectableItemBackgroundBorderless
+		</item>
+		<item name="android:src">@drawable/ic_remove_red_600_48dp</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+</resources>

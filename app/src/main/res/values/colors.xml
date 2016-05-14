@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#388e5c</color>
+	<color name="colorPrimaryDark">#2c7853</color>
+	<color name="colorAccent">#388e5c</color>
+	<color name="colorSplit">#bdbdbd</color>
+	<color name="colorSpinnerItemPressed">#e1e1e1</color>
+	<color name="colorAvatarBackground">#9e9e9e</color>
+	<color name="colorSideBarNormal">#ededed</color>
+	<color name="colorSideBarPressed">#cfd8dc</color>
+	<color name="colorAddAndRemoveButtonPressed">#83c7c7c7</color>
+	<color name="colorSideBarText">#212121</color>
+	<color name="colorSideBarTextPressed">#388e5c</color>
+	<color name="colorTag">#39404e</color>
+	<color name="colorAlphaDialogBackground">#d86c6c6c</color>
+	<color name="colorAlphaDialogTextColor">#ffffff</color>
+</resources>

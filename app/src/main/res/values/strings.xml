@@ -1,0 +1,41 @@
+<resources>
+	<string name="app_name">Rick-通讯录</string>
+	<string name="str_contact_person">联系人</string>
+	<string name="str_search">搜索</string>
+	<string name="str_cancel">取消</string>
+	<string name="str_save">保存</string>
+	<string name="str_name">名称</string>
+	<string name="str_phone">手机</string>
+	<string name="str_phone_number">手机号码</string>
+	<string name="str_email">电子邮件</string>
+	<string name="str_group">群组</string>
+	<string name="str_no_group">未分配</string>
+	<string name="str_contacts_count_show_prefix">共显示&#160;</string>
+	<string name="str_contacts_count_show_postfix">&#160;位联系人</string>
+	<string name="str_contacts_no_person">暂未录入任何联系人</string>
+	<string name="str_contacts_search_count_show_prefix">共搜索到&#160;</string>
+	<string name="str_contacts_search_count_show_postfix">&#160;位联系人</string>
+	<string name="str_contacts_search_no_person">未找到联系人</string>
+	<array name="phoneTags">
+		<item>手机</item>
+		<item>家庭</item>
+		<item>工作</item>
+		<item>工作传真</item>
+		<item>家庭传真</item>
+		<item>寻呼机</item>
+		<item>其他</item>
+		<item>回拨号码</item>
+	</array>
+	<array name="emailTags">
+		<item>家庭</item>
+		<item>其他</item>
+		<item>工作</item>
+	</array>
+	<string name="str_contacts_saved">联系人已保存</string>
+	<string name="str_contacts_save_cancel">取消保存联系人</string>
+	<string name="str_contacts_delete">删除联系人</string>
+	<string name="str_contacts_deleted">联系人已删除</string>
+	<string name="str_contacts_delete_confirm">确认要删除联系人吗？</string>
+	<string name="str_contacts_save_fail">无效的输入，联系人保存失败</string>
+	<string name="str_confirm">确认</string>
+</resources>

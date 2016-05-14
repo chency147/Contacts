@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@android:color/white"
+			  android:orientation="vertical">
+
+	<LinearLayout
+		style="@style/titleBarStyle"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/bt_cancel"
+			style="@style/titleButtonStyle"
+			android:onClick="cancel"
+			android:text="@string/str_cancel"/>
+
+		<Button
+			android:id="@+id/bt_save"
+			android:onClick="savePerson"
+			style="@style/titleButtonStyle"
+			android:text="@string/str_save"/>
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:gravity="center"
+				android:orientation="horizontal"
+				android:paddingLeft="@dimen/activity_horizontal_margin"
+				android:paddingRight="@dimen/activity_horizontal_margin">
+
+				<ImageView
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:src="@drawable/ic_account_circle_grey_400_48dp"/>
+
+				<EditText
+					android:id="@+id/et_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="@dimen/activity_horizontal_margin"
+					android:hint="@string/str_name"
+					android:textSize="16sp"/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/split_width"
+				android:background="@color/colorSplit"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:gravity="center_vertical"
+					android:paddingLeft="@dimen/activity_horizontal_margin"
+					android:paddingRight="@dimen/activity_horizontal_margin">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/str_phone"
+						android:textColor="@android:color/black"
+						android:textSize="16sp"
+						/>
+
+					<Space
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						/>
+
+					<ImageButton
+						android:id="@+id/bt_addPhone"
+						style="@style/addButtonStyle"
+						android:onClick="addPhone"
+						/>
+				</LinearLayout>
+
+				<ListView
+					android:id="@+id/lv_phone"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:divider="@null"
+					android:overScrollMode="never"/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/split_width"
+				android:background="@color/colorSplit"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:gravity="center_vertical"
+					android:paddingLeft="@dimen/activity_horizontal_margin"
+					android:paddingRight="@dimen/activity_horizontal_margin">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/str_email"
+						android:textColor="@android:color/black"
+						android:textSize="16sp"
+						/>
+
+					<Space
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						/>
+
+					<ImageButton
+						android:id="@+id/bt_addEmail"
+						style="@style/addButtonStyle"
+						android:onClick="addEmail"
+						/>
+				</LinearLayout>
+
+				<ListView
+					android:id="@+id/lv_email"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:divider="@null"/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/split_width"
+				android:background="@color/colorSplit"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:gravity="center_vertical"
+				android:orientation="vertical"
+				android:paddingLeft="@dimen/activity_horizontal_margin">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="@dimen/activity_vertical_margin_half"
+					android:text="@string/str_group"
+					android:textColor="@android:color/black"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:id="@+id/tv_group"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/str_no_group"
+					android:textSize="12sp"/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/split_width"
+				android:background="@color/colorSplit"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+
